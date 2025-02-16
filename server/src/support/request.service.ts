@@ -49,6 +49,8 @@ export class SupportRequestService implements ISupportRequestService {
   subscribe(
     handler: (supportRequest: SupportRequest, message: Message) => void,
   ): () => void {
+    // В этом методе мы будем создавать подписку на новые сообщения в чате
+    // и передавать их обработчику
 
     const subscription = this.supportRequestModel
       .watch()
@@ -63,6 +65,7 @@ export class SupportRequestService implements ISupportRequestService {
         }
       });
 
+    // Возвращаем функцию для отмены подписки
     return () => subscription.close();
   }
 }
