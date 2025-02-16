@@ -1,18 +1,18 @@
 .NavMenu {
-    list-style-type: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .NavMenu__item {
-    font-weight: 700;
-    text-decoration: none;
-  }
-  
-  .NavMenu__item > a {
-    color: darkgrey;
-  }
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0;
+  margin: 0;
+}
+
+.NavMenu__item {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.NavMenu__item > a {
+  color: darkgrey;
+}

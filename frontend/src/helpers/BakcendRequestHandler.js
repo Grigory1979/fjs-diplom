@@ -8,7 +8,7 @@ export const BackendRequestHandler = async (url, method, data) => {
     const result = await fetch(`${REQUEST_URL_STRING}${url}`, method, data);
     return result;
   } catch (error) {
-    console.error("В процессе отправки запроса возникла ошибка!", error);
+    console.error("Во процессе отправки запроса возникла ошибка!", error);
   }
 };
 

@@ -1,15 +1,15 @@
 .Aside {
-    margin: 1rem;
-    padding: 2rem;
-    border-radius: 0.5rem;
-    background-color: #ffffff;
-    width: 300px;
-    max-width: 300px;
-    min-height: 50px;
-    display: flex;
-    flex-grow: 1;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    font-size: 1rem;
-  }
+  margin: 1rem;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  background-color: #ffffff;
+  width: 300px;
+  max-width: 300px;
+  min-height: 50px;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-size: 1rem;
+}
