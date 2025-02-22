@@ -22,3 +22,4 @@ export default function HeaderRightColumn() {
   }
   return <>{unAuthorizedContent}</>;
 }
+
