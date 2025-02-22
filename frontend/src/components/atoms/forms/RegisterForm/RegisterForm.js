@@ -75,3 +75,4 @@ export const RegisterForm = () => {
 const DropdownRegisterForm = { linkToDropdownRegisterForm, RegisterForm };
 
 export default DropdownRegisterForm;
+
