@@ -9,3 +9,4 @@ export const swaggerConfig = () => {
     .setVersion("1.0")
     .build();
 };
+
